@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+/* navigation Bar */
+
+nav {
+    background-color: #002B5B;
+}
+
+.navbar-brand {
+    padding-right: 50%;
+    padding-left: 5%;
+}
+
+/* the body part */
+#body-part {
+    background-color: #002B5B;
+}
+
+.text-part {
+    font-family: sans-serif;
+    color: white;
+    padding-top: 7%;
+    padding-left: 5%;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 5%;
+}
+
+
+.name {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    line-height: 2.5rem;
+    font-size: 35px;
+    color: #1CD6CE;
+    padding-left: 20%;
+}
+
+.role {
+    font-style: italic;
+    padding-left: 27%;
+    padding-bottom: 3%;
+}
+
+.bton {
+    color: #fbfcfd;
+    padding: 8px 18px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    margin-left: 40%;
+}
+
+.bton:hover {
+    box-shadow: inset 110px 0 0 0 #1CD6CE;
+    cursor: pointer;
+    color: #000729;
+}
+
+#skill {
+    margin-top: 0;
+    background-color: #032246;
+    padding-bottom: 4%;
+    color: #1CD6CE;
+}
+
+.skill-text {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    line-height: 3rem;
+    font-size: 30px;
+    color: gold;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+}
+
+
+.cpp-logo {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 1%;
+}
+
+.cpp-logo:hover {}
+
+/* .about-me {
+    font-family: 'PT Serif', serif;
+    line-height: 2.5rem;
+    text-align: center;
+    color: white;
+    width: 1000Px;
+    height: 200px;
+} */
+
+
+/* side-bar */
+#about-me{
+    padding-top: 5%;
+    background-color: #002B5B;
+}
+.img-fluid {
+   padding-left: 5%;
+   
+}
+.card{
+    background-color:#002B5B!important;
+    color: white!important;
+    padding-left: 20%;
+}
+.social {
+    position: absolute;
+    top: 100%;
+    right: 6%;
+    width: 20px;
+    cursor: pointer;
+    transform: translate(20%);
+}
+
+i {
+    padding-top: 150%;
+}
+
+.fa-github {
+    color: white;
+   
+}
+
+.fa-github:hover {
+    color: gray;
+}
+
+.fa-spotify {
+    color: green;
+}
+
+.fa-spotify:hover {
+    color: #3CCF4E;
+}
+
+
+.fa-twitter {
+    color: #00AFC1;
+}
+
+.fa-twitter:hover {
+    color: #30AADD;
+}
+
+.fa-telegram {
+    color: #0071bd;
+}
+
+.fa-telegram:hover {
+    color: white;
+}
+
+
+
+@media(max-width:768px) {
+    .text-part {
+        padding: 0 0 10% 0;
+        margin: 0;
+    }
+
+    .name {
+        padding-top: 10%;
+        font-size: 25px;
+        margin-left: 0%;
+    }
+
+    .role {
+        font-size: 15px;
+        margin-left: 1%;
+    }
+
+    .bton {
+        margin-left: 37%;
+    }
+    .img-fluid{
+       
+        width:30%;
+        height: 30%;
+    }
+    .card{
+        padding-left: 0;
+    }
+
+
+}
